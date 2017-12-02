@@ -1,0 +1,3 @@
+liquibase  --defaultsFile=src/main/resources/liquibase/liquibase.properties --classpath="C:\dev\mysql-connector-java\mysql-connector-java-5.1.44.jar;" --changeLogFile=src/main/resources/liquibase/db-changelog-master.xml update
+
+mvn liquibase:update
